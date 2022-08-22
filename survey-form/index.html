@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to complete this survey</p>
+    <form action='' id="survey-form">
+    <fieldset>
+      <!--TEXT INPUT -->
+      <label id="name-label" >Name<input type="text" id="name" name="user-name" placeholder="username" required /></label>
+      <label id="email-label">Email<input type="email" id="email" name="email" placeholder="name@email.com" required /></label>
+      <label id="number-label"> Age<input id="number" type="number"  name="age" min="13" max="120" placeholder="21"/>
+    </fieldset>
+
+    <fieldset id="radio-field">
+      <!--SELECTOR INPUT -->
+          <label><input type="radio" name="account-type" class="inline" value="personal-account" /> Personal Account</label>
+        <label><input type="radio" name="account-type" class="inline" value="business-account"/> Business Account</label>
+
+         <label><input type="checkbox" name="account-type" class="inline" value="personal-account" /> Join Mailing List</label>
+        <label><input type="checkbox" name="account-type" class="inline" value="business-account"/> Join Events</label>
+    </fieldset>
+  <fieldset>
+    
+       <label>How did you hear about us?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+    </fieldset>
+
+    <fieldset>
+      <label>
+          <textarea name="bio" rows="3" cols="30" placeholder="Feedback"></textarea>
+        </label>
+    </fieldset>
+
+    <input id="submit" type="submit" value="Submit" />
+    </form>
