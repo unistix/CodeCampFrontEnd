@@ -1,0 +1,1 @@
+Ice cream website with slider gallery

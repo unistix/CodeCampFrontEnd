@@ -3,24 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=devicewidth", initial-scale=1.0>
+	<meta name="viewport" content="width=device-width", initial-scale=1.0>
 	<title> Ice Cream Shop</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
 
 	<!--FONT AWESOME -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	
 	<!-- Swiper-->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	
+	<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>-->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" type="text/css">
 
 	<!-- Lightgallery -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.6.0/lightgallery.min.js" />
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
 	<!-- CSS -->
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css"/>
 
 </head>
 
 <body>
 
+
+	<!--HEADER--->
 	<section class="header">
 		<a href="#" class="logo"> <i class="fas fa-ice-cream"> </i> Ice cream </a>
 		<nav class ="navbar">
@@ -31,18 +36,64 @@
 			<a href="#reviews"> reviews </a>
 			<a href="#order"> order </a>
 		</nav>
+		<div id="menu-btn" class="fas fa-bars ">
 
+		</div>
 
+	</section>	
+
+	<!--/HEADER--->
+	<!--HOME-->
+
+	<section class="home" id="home">
+		<div class="swiper home-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide slide" style="background: url(images/header-1.png) no-repeat;">
+					<div class="content">
+						<h3>do you know how pleasure tastes?</h3>
+						<a href="#" class="btn">get started</a>
+					</div>
+					
+				</div>
+
+				<div class="swiper-slide slide" style="background: url(images/header-2.png) no-repeat;">
+					<div class="content">
+						<h3>do you know how pleasure tastes?</h3>
+						<a href="#" class="btn">get started</a>
+					</div>
+					
+				</div>
+
+				<div class="swiper-slide slide" style="background: url(images/header-3.png) no-repeat;">
+					<div class="content">
+						<h3>do you know how pleasure tastes?</h3>
+						<a href="#" class="btn">get started</a>
+					</div>
+					
+				</div>
+			</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+		</div>
+		
+	</section>
+
+	<section class="about" id="about">
+	</section>
+
+	<!--HOME-->
 
 
 	<!-- Swiper-->
-	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<!--<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/></script>-->
 
 	<!-- Lightgallery -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.6.0/lightgallery.min.js" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.6.0/lightgallery.min.js" ></script>
 
 	<!-- custom JS -->
-	<script src="js/script.js" />
+	
+	<script src="js/script.js"></script>
 
 
 
